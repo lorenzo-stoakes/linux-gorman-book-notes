@@ -16,6 +16,9 @@ purposes".
 Though this is a (substantial) derivative, it is entirely without commercial aim
 of course, and designed merely as a study guide for myself.
 
+__NOTE:__ Whenever there is an architecture-dependent function/macro/data
+structure, the links I am including reference i386.
+
 __NOTE:__ For the time being, I am skipping the 'What's new in 2.6' parts of the
 book as I am focused on 2.4.22. Looking through these will be part of the next
 phase of my research where I translate from 2.4.22 to a recent kernel.
