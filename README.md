@@ -22,13 +22,13 @@ phase of my research where I translate from 2.4.22 to a recent kernel.
 
 ## Contents
 
-### Incomplete
-
 * [2: Describing Physical Memory](2.md)
 
-### Non-Existent
+### Incomplete
 
 * [3: Page Table Management](3.md)
+
+### Non-Existent
 
 * [4: Process Address Space](4.md)
 
