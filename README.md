@@ -32,13 +32,13 @@ details of interest to me at this point.
 
 * [3: Page Table Management](3.md)
 
-### Incomplete
-
 * [4: Process Address Space](4.md)
 
-### Non-Existent
+### Incomplete
 
 * [5: Boot Memory Allocator](5.md)
+
+### Non-Existent
 
 * [6: Physical Page Allocation](6.md)
 
