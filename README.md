@@ -23,6 +23,9 @@ __NOTE:__ For the time being, I am skipping the 'What's new in 2.6' parts of the
 book as I am focused on 2.4.22. Looking through these will be part of the next
 phase of my research where I translate from 2.4.22 to a recent kernel.
 
+__NOTE__: I skip chapter 1 as this is introductory and doesn't contain many
+details of interest to me at this point.
+
 ## Contents
 
 * [2: Describing Physical Memory](2.md)
