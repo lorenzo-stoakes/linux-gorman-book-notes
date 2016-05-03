@@ -1,7 +1,7 @@
 # Understanding the Linux Virtual Memory Manager
 
 This is a set of notes I am amateurishly extracting from the book
-[Understanding the Linux Virtual Memory Manager][amazon] written by esteemed
+[Understanding the Linux Virtual Memory Manager][amazon] written by the esteemed
 [Mel Gorman][mel].
 
 These are written for my own tastes and understanding so will likely not be
