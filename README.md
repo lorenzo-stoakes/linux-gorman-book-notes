@@ -34,13 +34,13 @@ details of interest to me at this point.
 
 * [4: Process Address Space](4.md)
 
-### Incomplete
-
 * [5: Boot Memory Allocator](5.md)
 
-### Non-Existent
+### Incomplete
 
 * [6: Physical Page Allocation](6.md)
+
+### Non-Existent
 
 * [7: Non-contiguous Memory Allocation](7.md)
 
