@@ -38,13 +38,13 @@ details of interest to me at this point.
 
 * [6: Physical Page Allocation](6.md)
 
-### Incomplete
-
 * [7: Non-contiguous Memory Allocation](7.md)
 
-### Non-Existent
+### Incomplete
 
 * [8: Slab Allocator](8.md)
+
+### Non-Existent
 
 * [9: High Memory Management](9.md)
 
