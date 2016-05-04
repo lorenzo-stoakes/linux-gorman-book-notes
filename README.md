@@ -36,13 +36,13 @@ details of interest to me at this point.
 
 * [5: Boot Memory Allocator](5.md)
 
-### Incomplete
-
 * [6: Physical Page Allocation](6.md)
 
-### Non-Existent
+### Incomplete
 
 * [7: Non-contiguous Memory Allocation](7.md)
+
+### Non-Existent
 
 * [8: Slab Allocator](8.md)
 
