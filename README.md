@@ -42,13 +42,13 @@ details of interest to me at this point.
 
 * [8: Slab Allocator](8.md)
 
-### Incomplete
-
 * [9: High Memory Management](9.md)
 
-### Non-Existent
+### Incomplete
 
 * [10: Page Frame Reclamation](10.md)
+
+### Non-Existent
 
 * [11: Swap Management](11.md)
 
