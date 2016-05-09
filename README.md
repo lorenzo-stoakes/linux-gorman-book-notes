@@ -48,11 +48,9 @@ details of interest to me at this point.
 
 * [11: Swap Management](11.md)
 
-### Incomplete
-
 * [12: Shared Memory Virtual Filesystem](12.md)
 
-### Non-Existent
+### Incomplete
 
 * [13: Out of Memory Management](13.md)
 
