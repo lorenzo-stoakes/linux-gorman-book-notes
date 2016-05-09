@@ -46,13 +46,13 @@ details of interest to me at this point.
 
 * [10: Page Frame Reclamation](10.md)
 
-### Incomplete
-
 * [11: Swap Management](11.md)
 
-### Non-Existent
+### Incomplete
 
 * [12: Shared Memory Virtual Filesystem](12.md)
+
+### Non-Existent
 
 * [13: Out of Memory Management](13.md)
 
