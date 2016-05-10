@@ -1,6 +1,6 @@
 # Understanding the Linux Virtual Memory Manager
 
-This is a set of notes I am amateurishly extracting from the book
+This is a set of notes I have amateurishly extracted from the book
 [Understanding the Linux Virtual Memory Manager][amazon] written by the esteemed
 [Mel Gorman][mel].
 
@@ -49,8 +49,6 @@ details of interest to me at this point.
 * [11: Swap Management](11.md)
 
 * [12: Shared Memory Virtual Filesystem](12.md)
-
-### Incomplete
 
 * [13: Out of Memory Management](13.md)
 
