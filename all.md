@@ -8383,6 +8383,7 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [LockPage]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/mm.h#L321
 [MARK_USED]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/page_alloc.c#L174
 [MAX_DMA_ADDRESS]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/dma.h#L76
+[MAX_NR_NODES]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/mmzone.h#L219
 [MAX_NR_ZONES]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/mmzone.h#L98
 [MAX_ORDER]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/mmzone.h#L17
 [MAX_SWAPFILES]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/swap.h#L11
