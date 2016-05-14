@@ -913,7 +913,7 @@ flags, see the [PAE wikipedia article][PAE] for more details.)
 
 * Virtual memory is divided into separate directories so we can have a 'sparse'
   set of data structures for each process. Each PGD takes up a page of memory
-  (4KiB on i386), rather than the 1MiB it would take to map the whole 4GiB
+  (4KiB on i386), rather than the 4MiB it would take to map the whole 4GiB
   address space if it were only a single list.
 
 ### 3.1 Describing the Page Directory
