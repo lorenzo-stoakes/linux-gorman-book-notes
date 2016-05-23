@@ -1168,7 +1168,7 @@ equivalents for the PGD.
 
 * Linux doesn't use either PAT or PSE in userspace, so this bit is free for
   other uses. It's used to fulfil cases like an [mprotect()][mprotect]'d region
-  of memory set to `PROT_NONE` where the memory needs to resident, but
+  of memory set to `PROT_NONE` where the memory needs to be resident but also
   inaccessible to userland. This is achieved by clearing `_PAGE_PRESENT` and
   setting `_PAGE_PROTNONE`.
 
