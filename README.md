@@ -31,29 +31,17 @@ details of interest to me at this point.
 [Complete Set of Notes](all.md)
 
 1. Introduction - _skipped_.
-
 2. [Describing Physical Memory](2.md)
-
 3. [Page Table Management](3.md)
-
 4. [Process Address Space](4.md)
-
 5. [Boot Memory Allocator](5.md)
-
 6. [Physical Page Allocation](6.md)
-
 7. [Non-contiguous Memory Allocation](7.md)
-
 8. [Slab Allocator](8.md)
-
 9. [High Memory Management](9.md)
-
 10. [Page Frame Reclamation](10.md)
-
 11. [Swap Management](11.md)
-
 12. [Shared Memory Virtual Filesystem](12.md)
-
 13. [Out of Memory Management](13.md)
 
 [amazon]:http://www.amazon.co.uk/Understanding-Virtual-Memory-Manager-Perens/dp/0131453483
