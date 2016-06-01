@@ -775,8 +775,8 @@ flags, see the [PAE wikipedia article][PAE] for more details.)
   [pte_present()][pte_present] __must__ return true for this to be useable.
 
 * `pte_mkyoung(entry)`, `pte_mkold(entry)` - Given `entry`, a page table entry
-  containing a _physical_ address of type `pte_t`, sets or clears the dirty bit
-  respectively - [pte_mkyoung()][pte_mkyoung], [pte_mkold()][pte_mkold].
+  containing a _physical_ address of type `pte_t`, sets or clears the accessed
+  bit respectively - [pte_mkyoung()][pte_mkyoung], [pte_mkold()][pte_mkold].
 
 * `pte_read(entry)` - Given `entry`, a page table entry containing a _physical_
   address of type `pte_t`, returns true if the PTE is readable, which is
