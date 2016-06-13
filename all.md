@@ -1980,7 +1980,7 @@ represented diagrammatically:
   called to ensure that a `mm_struct` is not shared between processors in SMP
   machines - it's a null operation on UP machines.
 
-* During process exit [start_lazy_tlb()][start_lazy_tlb] is used birefly while
+* During process exit [start_lazy_tlb()][start_lazy_tlb] is used briefly while
   the process is waiting to be reaped by the parent.
 
 * Let's take a look at [struct mm_struct][mm_struct] again:
@@ -8504,7 +8504,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [__pmd]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/page.h#L59
 [__pmd_offset]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L336
 [__pte]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/page.h#L58
-[__pte_offset]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L340
 [__start___ex_table]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/i386/vmlinux.lds#L23
 [__stop___ex_table]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/i386/vmlinux.lds#L25
 [__user_walk]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/fs/namei.c#L850
@@ -8537,7 +8536,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [alloc_bootmem_low_pages]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/bootmem.h#L44
 [alloc_bootmem_low_pages_node]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/bootmem.h#L57
 [alloc_bootmem_node]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/bootmem.h#L53
-[alloc_bootmem_node]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/bootmem.c#L344
 [alloc_bootmem_pages]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/bootmem.h#L42
 [alloc_bootmem_pages_node]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/bootmem.h#L55
 [alloc_bounce_bh]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/highmem.c#L369
@@ -8717,13 +8715,11 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [kmalloc]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L1555
 [kmap]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/highmem.h#L62
 [kmap_atomic]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/highmem.h#L83
-[kmap_atomic]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/highmem.h#L72
 [kmap_high]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/highmem.c#L132
 [kmap_init]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/i386/mm/init.c#L81
 [kmap_nonblock]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/highmem.h#L63
 [kmem_bufctl_t]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L141
 [kmem_cache_alloc]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L1529
-[kmem_cache_alloc_batch]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L1305
 [kmem_cache_alloc_head]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L1231
 [kmem_cache_alloc_one_tail]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L1242
 [kmem_cache_create]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/slab.c#L622
@@ -8765,7 +8761,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [make_pages_present]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/memory.c#L1460
 [map_new_virtual]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/highmem.c#L80
 [mark_page_accessed]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/filemap.c#L1332
-[mem_init]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/alpha/mm/init.c#L360
 [mem_init]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/i386/mm/init.c#L507
 [mem_map]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/memory.c#L73
 [mk_pte]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L309
@@ -8859,7 +8854,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [pte_alloc_one_fast]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgalloc.h#L117
 [pte_clear]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L268
 [pte_dirty]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L284
-[pte_exec]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L283
 [pte_exprotect]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L289
 [pte_free]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgalloc.h#L142
 [pte_free_fast]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgalloc.h#L130
@@ -8953,7 +8947,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [shmem_truncate_direct]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L265
 [shmem_truncate_indirect]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L309
 [shmem_unlink]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L1221
-[shmem_unuse]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/swap.h#L213
 [shmem_unuse]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L498
 [shmem_vm_ops]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L1547
 [shmem_writepage]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/shmem.c#L522
@@ -8987,7 +8980,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [swap_list]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/swapfile.c#L30
 [swap_list_t]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/swap.h#L153
 [swap_mm]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/vmscan.c#L251
-[swap_out]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/vmscan.c#L269
 [swap_out]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/vmscan.c#L296
 [swap_out_mm]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/vmscan.c#L256
 [swap_out_pgd]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/vmscan.c#L197
@@ -8999,7 +8991,6 @@ give the process a chance of exiting cleanly. Otherwise a `SIGKILL` is sent.
 [swapon]:http://man7.org/linux/man-pages/man8/swapon.8.html
 [swapper_pg_dir]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/arch/i386/kernel/head.S#L380
 [swapper_space]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/swap_state.c#L39
-[swapper_space]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/mm/swap_state.c?v=linux-2.4.22#L39
 [switch_mm]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/mmu_context.h#L28
 [swp_entry_t]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/linux/shmem_fs.h#L16
 [swp_entry_to_pte]:https://github.com/lorenzo-stoakes/linux-historical/blob/v2.4.22/include/asm-i386/pgtable.h#L356
