@@ -1833,7 +1833,7 @@ struct vm_area_struct {
 };
 ```
 
-* A region might represent the process help for use with `malloc()`, a memory
+* A region might represent the process heap for use with `malloc()`, a memory
   mapped file such as a shared library or some `mmap()`-ed memory.
 
 * The pages for the region might be active and resident, paged out or even yet
